@@ -58,4 +58,4 @@ Neural-Machine-Translation---LSTM/NeuralMachineTranslator_French to English.ipyn
 ```
 
 
-IMG20250803171654.jpg
+![Alt Text](IMG20250803171654.jpg)
