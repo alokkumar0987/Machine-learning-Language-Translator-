@@ -1,8 +1,8 @@
 # Machine-learning-Language-Translator-
 
-# 🧠 Neural Machine Translation with Seq2Seq LSTM using Keras
+#  Machine Translation with Seq2Seq LSTM using Keras
 
-This project demonstrates a **Neural Machine Translation (NMT)** system using an **Encoder-Decoder architecture** built with **Keras** and **LSTM layers**. It translates sentences from one language to another using **sequence-to-sequence learning**.
+This project demonstrates a **Machine Translation (MT)** system using an **Encoder-Decoder architecture** built with **Keras** and **LSTM layers**. It translates sentences from one language to another using **sequence-to-sequence learning**.
 
 ## 📚 Overview
 
@@ -10,7 +10,7 @@ The project includes the full pipeline:
 - Vectorization of input/output sentences
 - Training a Seq2Seq model using LSTM layers
 - Implementing separate encoder and decoder models for inference
-- Deploying the translation model using a **Streamlit web app**
+
 
 ---
 
@@ -37,25 +37,17 @@ Once trained:
   - **Encoder model**: Produces context states from the input sentence.
   - **Decoder model**: Uses those states to predict one token at a time.
 
-This setup allows the model to **translate unseen sentences** at test time.
 
----
+## 📚 Key Reference
 
-## 🚀 Streamlit Web App
-
-A lightweight **Streamlit interface** is provided:
-- Input a sentence
-- Get the translated output in real-time
-
-To run:
-
-```bash
-streamlit run streamlit_app.py
-Neural-Machine-Translation---LSTM/NeuralMachineTranslator_French to English.ipynb at master · khatrideepti/Neural-Machine-Translation---LSTM https://share.google/ESNbaOew9W3yQH4uc
+*Sequence to Sequence Learning with Neural Networks*  
+Ilya Sutskever, Oriol Vinyals & Quoc V. Le (2014)  
+Introduced the foundational encoder–decoder architecture using LSTM networks for mapping variable-length input to output sequences—with minimal assumptions about sequence structure. Achieved a BLEU score of about 34.8 on WMT‑14 English→French translation, surpassing strong SMT baselines, and improved further to ~36.5 via reranking. Reversing the order of source sentences significantly boosted performance 1.  
+[View on arXiv](https://arxiv.org/abs/1409.3215)
 
 
 
-```
+
 
 
 ![Alt Text](IMG20250803171654.jpg)
