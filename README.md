@@ -14,7 +14,7 @@ The project includes the full pipeline:
 
 ---
 
-## 🎯 Key Concepts Covered
+##  Key Concepts Covered
 
 ### 🧾 Vectorization
 
@@ -24,7 +24,7 @@ Before training, all sentences are converted into **one-hot encoded NumPy arrays
 - `decoder_input_data`: One-hot vectorized French sentences (input to decoder)
 - `decoder_target_data`: Same as `decoder_input_data`, but **offset by one timestep**, so the model learns to predict the next character.
 
-### 🧠 Model Training
+###  Model Training
 
 A **Seq2Seq model** using **LSTM layers** is trained using a technique called **teacher forcing**.  
 - It learns to predict the target sequence based on the encoder and decoder inputs.
