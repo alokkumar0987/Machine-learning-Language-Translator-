@@ -52,3 +52,10 @@ To run:
 ```bash
 streamlit run streamlit_app.py
 Neural-Machine-Translation---LSTM/NeuralMachineTranslator_French to English.ipynb at master · khatrideepti/Neural-Machine-Translation---LSTM https://share.google/ESNbaOew9W3yQH4uc
+
+
+
+```
+
+
+IMG20250803171654.jpg
